@@ -6,3 +6,4 @@ sphinx
 sphinxcontrib-bibtex
 sphinx-copybutton
 sphinx-gallery
+pydata-sphinx-theme

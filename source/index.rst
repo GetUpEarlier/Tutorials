@@ -1,44 +1,89 @@
-.. MegEngine documentation master file, created by
-   sphinx-quickstart on Tue Jan 19 21:17:28 2021.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+:notoc:
 
-欢迎使用天元 MegEngine (๑•̀ㅂ•́)و✧
-================================
+.. MegEngine documentation master file.
 
-新手入门篇
-----------
+.. module:: megengine
 
-适合从未使用过天元 MegEngine 深度学习框架，以及希望通过代码实践更好地理解深度学习理论的初学者。
+=============================
+天元 MegEngine 文档 (๑•̀ㅂ•́)و✧
+=============================
 
-.. toctree::
-   :maxdepth: 1
+**当前版本**：|version| （**文档更新于**： |today|）
 
-   getting-started/megengine-basic-concepts
-   getting-started/learning-from-linear-regression
-   getting-started/from-linear-regression-to-linear-classification
+:mod:`megengine` 是一个快速、可拓展、易于使用且支持自动求导的深度学习框架。
 
-模型结构篇
-----------
+.. raw:: html
 
-可以帮助初涉深度学习领域的研究者快速了解经典模型结构，同时也能够提升相应的编程能力。
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 d-flex">
+                <div class="card text-center intro-card shadow">
+                <img src="_static/logo/index_getting_started.svg" class="card-img-top" alt="getting started with megengine action icon" height="52">
+                <div class="card-body flex-fill">
+                    <h5 class="card-title">新手入门</h5>
+                    <p class="card-text">第一次接触 MegEngine? 不妨看一看我们特意为你准备的渐进式新手教程。
+                    理论基础结合 MegEngine 的核心概念和使用，模型训练、推理和部署，各种教程应有尽有。</p>
 
-任务实战篇
-----------
+.. container:: custom-button
 
-为开源社区提供有趣的任务样例，有助于开发者做出有趣的实际应用。
+    :ref:`学习 (⊙ˍ⊙) <getting-started>`
 
-生产部署篇
-----------
+.. raw:: html
 
-帮助开发者将模型部署到实际的生产环境中。
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 d-flex">
+                <div class="card text-center intro-card shadow">
+                <img src="_static/logo/index_user_guide.svg" class="card-img-top" alt="pandas user guide action icon" height="52">
+                <div class="card-body flex-fill">
+                    <h5 class="card-title">用户指南</h5>
+                    <p class="card-text">根据 MegEngine 核心模块和设计，提供更多细节信息和最佳实践。
+                    帮助你全面解锁 MegEngine 的各种使用姿势，能够解决开发流程中遇到的各种问题。</p>
 
-用户手册
---------
+.. container:: custom-button
 
-全面了解 MegEngine 的各种使用姿势。
+    :ref:`翻阅 (°ー°〃) <user-guide>`
 
-开发者手册
-----------
+.. raw:: html
 
-加入 MegEngine 的研发队伍，让 MegEngine 变得更好用。
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 d-flex">
+                <div class="card text-center intro-card shadow">
+                <img src="_static/logo/index_api.svg" class="card-img-top" alt="api of pandas action icon" height="52">
+                <div class="card-body flex-fill">
+                    <h5 class="card-title">API 文档</h5>
+                    <p class="card-text">提供 MegEngine API 的搜索，对各接口的使用方式将更加了解。
+                    阅读这一部分前请确保你已经了解 MegEngine 的核心概念和深度学习开发流程。</p>
+
+.. container:: custom-button
+
+    :ref:`搜索 (○´･д･)ﾉ <api>`
+
+.. raw:: html
+
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 d-flex">
+                <div class="card text-center intro-card shadow">
+                <img src="_static/logo/index_contribute.svg" class="card-img-top" alt="contribute to pandas action icon" height="52">
+                <div class="card-body flex-fill">
+                    <h5 class="card-title">开发者指南</h5>
+                    <p class="card-text">找到代码 Bug？发现文档有误？想要贡献教程？尝试提供新功能或改进已有功能？这儿总有你发光发热的位置。
+                    该指南将告诉你如何为 MegEngine 的发展添砖加瓦，欢迎大家加入进来玩！</p>
+
+.. container:: custom-button
+
+    :ref:`贡献 (○｀3′○) <development>`
+
+.. raw:: html
+
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
